@@ -1,0 +1,41 @@
+.header {
+    background-color: var(--main);
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    border-top: 0.1em solid rgb(210, 207, 207);
+}
+.headerContainer {
+    display: flex;
+    gap: 1em;
+    padding: 1em;
+}
+
+.headerItem {
+    display: flex;
+    gap: 0.5em;
+    padding: 1em;
+    color: var(--text);
+    border-radius: 2em;
+}
+
+.headerItem {
+    display: flex;
+    gap: 0.5em;
+    padding: 1em;
+    color: var(--text);
+    border-radius: 2em;
+}
+
+.active {
+   border: 2px dashed var(--text);
+}
+
+@media only screen and (max-width: 800px) {
+    .headerItem {
+        display: flex;
+        flex-direction: column;
+        padding: 0.5em;
+        border-radius: 1em;
+    }
+  }
