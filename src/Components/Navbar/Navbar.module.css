@@ -1,39 +1,38 @@
 @import url(../../Root.css);
 
 .container {
-    display: flex;
-    padding: 1em;
-    background-color: var(--main);
-    width: 100vw;
-    align-items: center;
-    justify-content: space-evenly;
+  display: flex;
+  padding: 1em;
+  background-color: var(--main);
+  width: 100vw;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .btn {
-    border: none;
-    background-color: var(--accent);
-    padding: 1em;
-    color: white;
-    border-radius: 0.5em;
-    margin-left: 1em;
-    font-size: medium;
+  border: none;
+  background-color: var(--accent);
+  padding: 1em;
+  color: white;
+  border-radius: 0.5em;
+  margin-left: 1em;
+  font-size: medium;
 }
-
 
 .logo {
-    font-size: medium;
-    background-color: var(--text);
-    padding: 1em 1em;
-    color:white;
-    border-radius: 1em;
+  font-size: medium;
+  background-color: var(--text);
+  padding: 1em 1em;
+  color: white;
+  border-radius: 1em;
 }
-.logo span{
-    background-color: var(--accent);
-    padding: 0.3em 0.5em;
-    color: white;
-    border-radius: 0.5em;
-    font-size: large;
-    font-style: italic;
-    font-weight: 500;
-    margin-right: 0.5em;
+.logo span {
+  background-color: var(--accent);
+  padding: 0.3em 0.5em;
+  color: white;
+  border-radius: 0.5em;
+  font-size: large;
+  font-style: italic;
+  font-weight: 500;
+  margin-right: 0.5em;
 }
