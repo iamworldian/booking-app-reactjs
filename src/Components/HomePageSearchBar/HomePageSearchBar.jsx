@@ -24,7 +24,7 @@ export default function HomePageSearchBar() {
     room: 0,
   });
 
-  const handlePersonsState = (name: 'adult' | 'child' | 'room', value: number) => {
+  const handlePersonsState = (name, value) => {
     console.log(name);
     setPersons((prev) => {
       return {
