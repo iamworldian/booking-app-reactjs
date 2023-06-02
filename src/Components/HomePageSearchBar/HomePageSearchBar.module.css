@@ -1,2 +1,131 @@
 .container {
+    background-color: var(--main);
+    justify-content: center;
+    display: flex;
+    position: relative;
+    background-color: var(--main);
+    height: 2em;
 }
+.searchGroup {
+    display: flex;
+    justify-content: center;
+    padding: 0em 1em;
+    width: 80vw;
+    border-radius: 10em;
+    color: white;
+    background-color: var(--text);
+    position: absolute;
+    top: -0.5em;
+}
+
+.searchSpace{
+    display: flex;
+    gap: 1em;
+    height: 2em;
+    font-size: larger;
+    align-items: center;
+    margin: 1em;
+}
+.dateMobile {
+    position: relative;
+}
+.searchSpace input{
+   height: 2em;
+   border-radius: 0.5em;
+   border: none;
+   padding: 1em;
+}
+
+.btn {
+    height: 4em;
+    width: 8em;
+    background-color: var(--accent);
+    color: white;
+    border: none;
+    border-radius: 1em;
+}
+
+.date{
+    position: absolute;
+    top: 4em;
+    left: 0;
+}
+
+.persons {
+    position: absolute;
+    top : 4em;
+    border: 3px dashed var(--accent);
+    color: var(--text);
+    font-size: large;
+    background-color: var(--main);
+    padding: 1em;
+}
+.personTypes {
+    display: flex;
+    gap: 0.5em;
+    margin-top: 1em;
+}
+
+.prsnBtn{
+    height: 2em;
+    width: 2em;
+    border: none;
+    background-color: var(--accent);
+    color: white;
+    font-weight: bolder;
+}
+
+@media only screen and (max-width: 800px) {
+    .container {
+        background-color: var(--main);
+        justify-content: center;
+        display: flex;
+    }
+    .searchGroup {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: none;
+        width: 100vw;
+        border-radius: 0em;
+        background-color: var(--main);
+        color: var(--text);
+    }
+    
+    .searchSpace input{
+        height: 2em;
+        width: 80vw;
+        border-radius: 0.5em;
+        border: none;
+        padding: 1em;
+     }
+
+     .btn {
+        height: 4em;
+        width: 80vw;
+        background-color: var(--accent);
+        color: white;
+        border: none;
+        border-radius: 1em;
+    }
+
+    .date{
+        position: fixed;
+        top: 15em;
+        left: 15em;
+    }
+
+    .dateMobile {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .persons {
+        position: fixed;
+        top: 15em;
+        left: 15em;
+    }
+    
+     
+  }
+  
